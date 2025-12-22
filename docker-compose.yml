@@ -1,0 +1,10 @@
+
+services:
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - /home/ahmet-nasri/pixo/Egger/disk-qdrant/qdrant_data:/qdrant/storage
+
+

@@ -1,0 +1,17 @@
+*.png
+*.jpg
+*.jpeg
+*.PNG
+*.JPG
+*.JPEG
+*.bmp
+*.tiff
+*.gif
+*.npy
+*.safetensors
+qdrant_data/
+*.xlsx
+*.pt
+*.pts
+*.ckpt
+*.ipynb
