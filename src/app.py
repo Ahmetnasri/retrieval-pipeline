@@ -340,4 +340,6 @@ db = vector_db(collection_name_phase1=DB_COLLECTION_NAME_PHASE1,
                extractor_model=EXTRACTOR_MODEL, keypoints=DISK_KEYPOINTS,
                lightweight_model_phase1=EMBEDDING_MODEL_PHASE1, 
                lightweight_model_path_phase1=EMBEDDING_MODEL_PATH_PHASE1,
-               lightweight_model_phase2=EMBEDDING_MODEL_PHASE2, lightweight_model_path_phase2=EMBEDDING_MODEL_PATH_PHASE2)
+               lightweight_model_phase2=EMBEDDING_MODEL_PHASE2, 
+               lightweight_model_path_phase2=EMBEDDING_MODEL_PATH_PHASE2,
+               database_path_lightglue=DATABASE_PATH_LIGHTGLUE)

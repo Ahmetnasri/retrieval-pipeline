@@ -53,7 +53,8 @@ class vector_db:
                  port=6333,extractor_model='disk',keypoints=256,
                  lightweight_model_phase1='sscd', lightweight_model_phase2='sscd',
                  lightweight_model_path_phase1='models/sscd_disc_large.torchscript.pt',
-                 lightweight_model_path_phase2='models/sscd_imagenet_mixup.torchscript.pt'):
+                 lightweight_model_path_phase2='models/sscd_imagenet_mixup.torchscript.pt',
+                 database_path_lightglue='rok'):
         """"
         Initialize the vector database connection and models.
         Phase 1: for SSCD embeddings of the whole image

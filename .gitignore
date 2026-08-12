@@ -15,3 +15,7 @@ qdrant_data/
 *.pts
 *.ckpt
 *.ipynb
+*.csv
+.env
+.env.*
+!.env.example
